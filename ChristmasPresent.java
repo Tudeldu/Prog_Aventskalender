@@ -21,4 +21,9 @@ public class ChristmasPresent extends ChristmasNode {
     public void addPressent(ChristmasPresent present) {
         return;
     }
+
+    @Override
+    public String printPresents() {
+        return present;
+    }
 }

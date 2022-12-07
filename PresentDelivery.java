@@ -1,14 +1,19 @@
 package Prog_Aventskalender;
 
 public class PresentDelivery {
-    private ChristmasTree tree;
+    private final ChristmasTree tree;
+    private final ChristmasPresent[] presents;
 
-    public void deliverPresents(ChristmasPresent present) {
-        tree.addPressent(present);
+    public PresentDelivery(ChristmasTree tree, ChristmasPresent[] presents) {
+        this.tree = tree;
+        this.presents = presents;
     }
 
-    public void SortPresents(ChristmasPresent[] presents) {
+    public ChristmasTree getTree() {
+        return tree;
+    }
+
+    public void deliverPresents(ChristmasPresent[] presents) {
         // TODO
     }
-
 }

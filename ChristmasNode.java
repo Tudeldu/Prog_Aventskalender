@@ -48,14 +48,15 @@ public class ChristmasNode {
 
     public void addPressent(ChristmasPresent present) {
         if (left != null) {
-            if (!!left.isFilled()) {
+            if (!left.isFilled()) {
                 left.addPressent(present);
             } else if (right != null) {
                 if (!right.isFilled()) {
                     right.addPressent(present);
                 }
             }
-        } else if (left == null) {
+        }
+        if (left == null) {
             left = present;
         } else if (right == null) {
             right = present;
@@ -70,5 +71,16 @@ public class ChristmasNode {
             return true;
         }
         return left.isFilled() && right.isFilled();
+    }
+
+    public String printPresents() {
+        String out = "";
+        if (left != null) {
+            out = left.printPresents() + ", " + out;
+        }
+        if (right != null) {
+            out = out + right.printPresents();
+        }
+        return out;
     }
 }

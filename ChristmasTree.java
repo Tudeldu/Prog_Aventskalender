@@ -13,7 +13,7 @@ public class ChristmasTree {
 
     // Builds balanced Binary tree with debth height
     public void MakeTree(int height) {
-        star.MakeTree(height);
+        star.MakeTree(height - 1);
     }
 
     // Returns the height of the tree
@@ -21,8 +21,13 @@ public class ChristmasTree {
         return star.getHeigth();
     }
 
+    // Adds a present to the tree
     public void addPressent(ChristmasPresent present) {
         star.addPressent(present);
     }
 
+    // Prints all presents in the tree in order
+    public void printPresents() {
+        System.out.println(star.printPresents());
+    }
 }
