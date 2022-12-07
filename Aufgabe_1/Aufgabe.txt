@@ -1,0 +1,14 @@
+Der Weihnachtsmann muss noch ganz viele Wihnachtsbäume aufstellen. Aber er hat nicht auf den Kalender geschaut und kommt desswegen nichtmehr mit der Arbeit hinterher.
+Vielleicht könnte seine Arbeit ja Automatisiert werden. Leider kann der Weihnachtsmann nicht programmieren, vielleicht kannst du ihm ja helfen.
+
+Die heutige aufgabe besteht darin ascii weihnachtsbäume einer belibigen höhe zu erstellen. Die höhe wird dabei als Kommandozeilenargument übergeben.
+ein wihnachtsbaum der höhe 4 soll zum Beispiel so aussehen:
+***************************
+   XX
+   /\
+  //\\
+ ///\\\
+   ||
+***************************
+die zwei X sind der obligatorische Stern, der auf jedem Weihnachtsbaum angebracht ist. Und der Stamm darf natürlich auch nicht fehlen.
+[Tipp: "\" wird in einem String als "\\" dargestellt.]

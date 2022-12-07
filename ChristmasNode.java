@@ -74,9 +74,9 @@ public class ChristmasNode {
     }
 
     public String printPresents() {
-        String out = "";
+        String out = " | ";
         if (left != null) {
-            out = left.printPresents() + ", " + out;
+            out = left.printPresents() + out;
         }
         if (right != null) {
             out = out + right.printPresents();
