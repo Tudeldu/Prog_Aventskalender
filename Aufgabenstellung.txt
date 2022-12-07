@@ -1,3 +1,0 @@
-Aufgabe 1
-der Weihnachtsmann hat sehr viele Geschenke, aber diese liegen unsortiert in einem Array :(.
-sie müssen sortiert unter den Baum gelegt werden, damit die Pinguine sich am weinachtsmorgen über ihre Geschenke freuen können.
