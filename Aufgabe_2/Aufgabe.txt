@@ -1,2 +1,0 @@
-Geschenkestapel
-stack braucht push, pop und print
